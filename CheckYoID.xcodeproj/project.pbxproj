@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B0BC8313ABE8B20050BED9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B0BC8213ABE8B20050BED9 /* UIKit.framework */; };
+		96B0BC8513ABE8B20050BED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B0BC8413ABE8B20050BED9 /* Foundation.framework */; };
+		96B0BC8713ABE8B30050BED9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B0BC8613ABE8B20050BED9 /* CoreGraphics.framework */; };
+		96B0BC8D13ABE8B30050BED9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96B0BC8B13ABE8B30050BED9 /* InfoPlist.strings */; };
+		96B0BC9013ABE8B30050BED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B0BC8F13ABE8B30050BED9 /* main.m */; };
+		96B0BC9313ABE8B30050BED9 /* CheckYoIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B0BC9213ABE8B30050BED9 /* CheckYoIDAppDelegate.m */; };
+		96B0BC9713ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B0BC9613ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.m */; };
+		96B0BC9A13ABE8B30050BED9 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B0BC9813ABE8B30050BED9 /* MainWindow_iPhone.xib */; };
+		96B0BC9E13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B0BC9D13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.m */; };
+		96B0BCA113ABE8B30050BED9 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B0BC9F13ABE8B30050BED9 /* MainWindow_iPad.xib */; };
+		96B0BCB613ABE9580050BED9 /* UIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B0BCB413ABE9580050BED9 /* UIDViewController.m */; };
+		96B0BCB713ABE9580050BED9 /* UIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B0BCB513ABE9580050BED9 /* UIDViewController.xib */; };
+		96B0BCCA13ABF0980050BED9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B0BCC913ABF0980050BED9 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96B0BC7E13ABE8B20050BED9 /* CheckYoID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckYoID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B0BC8213ABE8B20050BED9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96B0BC8413ABE8B20050BED9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96B0BC8613ABE8B20050BED9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96B0BC8A13ABE8B30050BED9 /* CheckYoID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckYoID-Info.plist"; sourceTree = "<group>"; };
+		96B0BC8C13ABE8B30050BED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96B0BC8E13ABE8B30050BED9 /* CheckYoID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckYoID-Prefix.pch"; sourceTree = "<group>"; };
+		96B0BC8F13ABE8B30050BED9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96B0BC9113ABE8B30050BED9 /* CheckYoIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckYoIDAppDelegate.h; sourceTree = "<group>"; };
+		96B0BC9213ABE8B30050BED9 /* CheckYoIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckYoIDAppDelegate.m; sourceTree = "<group>"; };
+		96B0BC9513ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CheckYoIDAppDelegate_iPhone.h; path = iPhone/CheckYoIDAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		96B0BC9613ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheckYoIDAppDelegate_iPhone.m; path = iPhone/CheckYoIDAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		96B0BC9913ABE8B30050BED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		96B0BC9C13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CheckYoIDAppDelegate_iPad.h; path = iPad/CheckYoIDAppDelegate_iPad.h; sourceTree = "<group>"; };
+		96B0BC9D13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheckYoIDAppDelegate_iPad.m; path = iPad/CheckYoIDAppDelegate_iPad.m; sourceTree = "<group>"; };
+		96B0BCA013ABE8B30050BED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		96B0BCB313ABE9580050BED9 /* UIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDViewController.h; path = ../UIDViewController.h; sourceTree = "<group>"; };
+		96B0BCB413ABE9580050BED9 /* UIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDViewController.m; path = ../UIDViewController.m; sourceTree = "<group>"; };
+		96B0BCB513ABE9580050BED9 /* UIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIDViewController.xib; path = ../UIDViewController.xib; sourceTree = "<group>"; };
+		96B0BCC913ABF0980050BED9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B0BC7B13ABE8B20050BED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B0BC8313ABE8B20050BED9 /* UIKit.framework in Frameworks */,
+				96B0BC8513ABE8B20050BED9 /* Foundation.framework in Frameworks */,
+				96B0BC8713ABE8B30050BED9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B0BC7313ABE8B20050BED9 = {
+			isa = PBXGroup;
+			children = (
+				96B0BCC913ABF0980050BED9 /* icon.png */,
+				96B0BC8813ABE8B30050BED9 /* CheckYoID */,
+				96B0BC8113ABE8B20050BED9 /* Frameworks */,
+				96B0BC7F13ABE8B20050BED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B0BC7F13ABE8B20050BED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BC7E13ABE8B20050BED9 /* CheckYoID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B0BC8113ABE8B20050BED9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BC8213ABE8B20050BED9 /* UIKit.framework */,
+				96B0BC8413ABE8B20050BED9 /* Foundation.framework */,
+				96B0BC8613ABE8B20050BED9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B0BC8813ABE8B30050BED9 /* CheckYoID */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BCB813ABE9640050BED9 /* Nibs */,
+				96B0BCB213ABE9360050BED9 /* ViewControllers */,
+				96B0BCB113ABE9280050BED9 /* Utility */,
+				96B0BC9113ABE8B30050BED9 /* CheckYoIDAppDelegate.h */,
+				96B0BC9213ABE8B30050BED9 /* CheckYoIDAppDelegate.m */,
+				96B0BC9413ABE8B30050BED9 /* iPhone */,
+				96B0BC9B13ABE8B30050BED9 /* iPad */,
+				96B0BC8913ABE8B30050BED9 /* Supporting Files */,
+			);
+			path = CheckYoID;
+			sourceTree = "<group>";
+		};
+		96B0BC8913ABE8B30050BED9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BC8A13ABE8B30050BED9 /* CheckYoID-Info.plist */,
+				96B0BC8B13ABE8B30050BED9 /* InfoPlist.strings */,
+				96B0BC8E13ABE8B30050BED9 /* CheckYoID-Prefix.pch */,
+				96B0BC8F13ABE8B30050BED9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96B0BC9413ABE8B30050BED9 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BC9513ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.h */,
+				96B0BC9613ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.m */,
+				96B0BC9813ABE8B30050BED9 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		96B0BC9B13ABE8B30050BED9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BC9C13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.h */,
+				96B0BC9D13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.m */,
+				96B0BC9F13ABE8B30050BED9 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		96B0BCB113ABE9280050BED9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		96B0BCB213ABE9360050BED9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BCB313ABE9580050BED9 /* UIDViewController.h */,
+				96B0BCB413ABE9580050BED9 /* UIDViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		96B0BCB813ABE9640050BED9 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				96B0BCB513ABE9580050BED9 /* UIDViewController.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B0BC7D13ABE8B20050BED9 /* CheckYoID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B0BCA413ABE8B30050BED9 /* Build configuration list for PBXNativeTarget "CheckYoID" */;
+			buildPhases = (
+				96B0BC7A13ABE8B20050BED9 /* Sources */,
+				96B0BC7B13ABE8B20050BED9 /* Frameworks */,
+				96B0BC7C13ABE8B20050BED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckYoID;
+			productName = CheckYoID;
+			productReference = 96B0BC7E13ABE8B20050BED9 /* CheckYoID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B0BC7513ABE8B20050BED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Auburn & Ivory";
+			};
+			buildConfigurationList = 96B0BC7813ABE8B20050BED9 /* Build configuration list for PBXProject "CheckYoID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96B0BC7313ABE8B20050BED9;
+			productRefGroup = 96B0BC7F13ABE8B20050BED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B0BC7D13ABE8B20050BED9 /* CheckYoID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B0BC7C13ABE8B20050BED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B0BC8D13ABE8B30050BED9 /* InfoPlist.strings in Resources */,
+				96B0BC9A13ABE8B30050BED9 /* MainWindow_iPhone.xib in Resources */,
+				96B0BCA113ABE8B30050BED9 /* MainWindow_iPad.xib in Resources */,
+				96B0BCB713ABE9580050BED9 /* UIDViewController.xib in Resources */,
+				96B0BCCA13ABF0980050BED9 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B0BC7A13ABE8B20050BED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B0BC9013ABE8B30050BED9 /* main.m in Sources */,
+				96B0BC9313ABE8B30050BED9 /* CheckYoIDAppDelegate.m in Sources */,
+				96B0BC9713ABE8B30050BED9 /* CheckYoIDAppDelegate_iPhone.m in Sources */,
+				96B0BC9E13ABE8B30050BED9 /* CheckYoIDAppDelegate_iPad.m in Sources */,
+				96B0BCB613ABE9580050BED9 /* UIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96B0BC8B13ABE8B30050BED9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B0BC8C13ABE8B30050BED9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96B0BC9813ABE8B30050BED9 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B0BC9913ABE8B30050BED9 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		96B0BC9F13ABE8B30050BED9 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B0BCA013ABE8B30050BED9 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B0BCA213ABE8B30050BED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Natalie Podrazik";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Natalie Podrazik";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "27C14B7E-7666-4C35-8E83-ED0558F6841C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27C14B7E-7666-4C35-8E83-ED0558F6841C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B0BCA313ABE8B30050BED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Natalie Podrazik";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Natalie Podrazik";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "27C14B7E-7666-4C35-8E83-ED0558F6841C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27C14B7E-7666-4C35-8E83-ED0558F6841C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96B0BCA513ABE8B30050BED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckYoID/CheckYoID-Prefix.pch";
+				INFOPLIST_FILE = "CheckYoID/CheckYoID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96B0BCA613ABE8B30050BED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckYoID/CheckYoID-Prefix.pch";
+				INFOPLIST_FILE = "CheckYoID/CheckYoID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B0BC7813ABE8B20050BED9 /* Build configuration list for PBXProject "CheckYoID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B0BCA213ABE8B30050BED9 /* Debug */,
+				96B0BCA313ABE8B30050BED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B0BCA413ABE8B30050BED9 /* Build configuration list for PBXNativeTarget "CheckYoID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B0BCA513ABE8B30050BED9 /* Debug */,
+				96B0BCA613ABE8B30050BED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B0BC7513ABE8B20050BED9 /* Project object */;
+}
